@@ -1,5 +1,5 @@
 /*
- * brainstorm tool, adapted from Wise4 stuff
+ * brainstorm tool, adapted from Wise4 stuff and apcsa course
  */
 
 llab.bs = {};
