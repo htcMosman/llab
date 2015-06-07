@@ -223,7 +223,7 @@ llab.processLinks = function(data, status, jqXHR) {
     llab.indicateProgress(llab.url_list.length, llab.thisPageNum() + 1);
 
     // FIXME -- not sure this really belongs here as well.
-    llab.addFeedback(document.title, llab.file, course);
+    //llab.addFeedback(document.title, llab.file, course);
 }; // end processLinks()
 
 
@@ -544,4 +544,3 @@ llab.indicateProgress = function(numSteps, currentStep) {
 $(document).ready(function() {
     llab.secondarySetUp();
 });
-
