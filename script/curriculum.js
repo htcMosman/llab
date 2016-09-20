@@ -26,7 +26,7 @@ llab.secondarySetUp = function() {
     course = params.course || '';
 
     // FIXME -- not sure this really belongs here as well.
-    llab.addFeedback(document.title, llab.file, course);
+    //llab.addFeedback(document.title, llab.file, course);
 
     // fix snap links so they run snap
     $('a.run').each(function(i) {
@@ -547,7 +547,7 @@ llab.goBack = function() {
 llab.goForward = function() {
     location.href = llab.url_list[llab.thisPageNum() + 1];
 };
-
+/*
 llab.addFeedback = function(title, topic, course) {
     // Prevent Button on small devices
     if (screen.width < 768) {
@@ -590,7 +590,7 @@ llab.addFeedback = function(title, topic, course) {
     });
     $(document.body).append(feedback);
 };
-
+*/
 /**
  *  Positions an image along the bottom of the lab page, signifying progress.
  *  numSteps is the total number of steps in the lab
